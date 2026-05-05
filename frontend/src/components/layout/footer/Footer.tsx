@@ -7,12 +7,11 @@ function Footer() {
         <div className="grid grid-cols-1 gap-10 py-[50px] lg:grid-cols-3">
           <div>
             <div className="mb-[25px]">
-              <img src="/assets/images/logo.png" alt="Nortecaca logo" />
+              <img src="/assets/images/footer-logo.png" alt="Nortecaca logo" />
             </div>
             <div className="max-w-[325px] text-base font-normal text-white">
-              NorteCaça disponibiliza uma vasta lista de caçadas em território
-              nacional. Com possibilidade de reserva ou de promoção de novos
-              espaços para caçadas.
+              NorteCaca provides a wide list of hunts across the country, with
+              options to reserve spots or promote new hunting areas.
             </div>
             <div>
               <ul className="mt-[30px] flex list-none gap-[15px] p-0">
@@ -42,23 +41,26 @@ function Footer() {
               </h6>
               <ul className="m-0 list-none space-y-[5px] p-0">
                 <li>
-                  <Link href="/sobre" className="text-white no-underline">
-                    Sobre
+                  <Link href="/about" className="text-white no-underline">
+                    About
                   </Link>
                 </li>
                 <li>
-                  <Link href="/cacadas" className="text-white no-underline">
-                    Caçadas
+                  <Link href="/hunts" className="text-white no-underline">
+                    Hunts
                   </Link>
                 </li>
                 <li>
-                  <Link href="/contactos" className="text-white no-underline">
-                    Contactos
+                  <Link href="/contact" className="text-white no-underline">
+                    Contact
                   </Link>
                 </li>
                 <li>
-                  <Link href="/parcerias" className="text-white no-underline">
-                    Parcerias
+                  <Link
+                    href="/partnerships"
+                    className="text-white no-underline"
+                  >
+                    Partnerships
                   </Link>
                 </li>
               </ul>
@@ -67,15 +69,13 @@ function Footer() {
 
           <div>
             <h6 className="mb-[25px] text-base font-semibold text-white">
-              Contactos
+              Contacts
             </h6>
             <div>
               <div className="mb-[10px] flex items-center gap-[15px]">
                 <img src="/assets/images/phone.png" alt="Phone" />
                 <div>
-                  <span className="block text-xs text-[#E0E0E0]">
-                    Telemóvel
-                  </span>
+                  <span className="block text-xs text-[#E0E0E0]">Mobile</span>
                   <a
                     href="tel:+351910000000"
                     className="text-base font-normal text-white no-underline"
@@ -88,7 +88,7 @@ function Footer() {
               <div className="mb-[10px] flex items-center gap-[15px]">
                 <img src="/assets/images/mail.png" alt="Email" />
                 <div>
-                  <span className="block text-xs text-[#E0E0E0]">E-mail</span>
+                  <span className="block text-xs text-[#E0E0E0]">Email</span>
                   <a
                     href="mailto:info@mail.com"
                     className="text-base font-normal text-white no-underline"
