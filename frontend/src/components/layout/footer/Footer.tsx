@@ -9,7 +9,7 @@ function Footer() {
             <div className="mb-[25px]">
               <img src="/assets/images/footer-logo.png" alt="Nortecaca logo" />
             </div>
-            <div className="max-w-[325px] text-base font-normal text-white">
+            <div className="max-w-[325px] text-sm font-normal text-white">
               NorteCaca provides a wide list of hunts across the country, with
               options to reserve spots or promote new hunting areas.
             </div>
@@ -35,30 +35,39 @@ function Footer() {
           </div>
 
           <div>
-            <div className="mx-auto max-w-[200px]">
+            <div className="ml-0 max-w-[200px] sm:mx-auto">
               <h6 className="mb-[25px] text-base font-semibold text-white">
                 Company
               </h6>
               <ul className="m-0 list-none space-y-[5px] p-0">
                 <li>
-                  <Link href="/about" className="text-white no-underline">
+                  <Link
+                    href="/about"
+                    className="text-white no-underline text-sm"
+                  >
                     About
                   </Link>
                 </li>
                 <li>
-                  <Link href="/hunts" className="text-white no-underline">
+                  <Link
+                    href="/hunts"
+                    className="text-white no-underline text-sm"
+                  >
                     Hunts
                   </Link>
                 </li>
                 <li>
-                  <Link href="/contact" className="text-white no-underline">
+                  <Link
+                    href="/contact"
+                    className="text-white no-underline text-sm"
+                  >
                     Contact
                   </Link>
                 </li>
                 <li>
                   <Link
                     href="/partnerships"
-                    className="text-white no-underline"
+                    className="text-white no-underline text-sm"
                   >
                     Partnerships
                   </Link>
@@ -78,7 +87,7 @@ function Footer() {
                   <span className="block text-xs text-[#E0E0E0]">Mobile</span>
                   <a
                     href="tel:+351910000000"
-                    className="text-base font-normal text-white no-underline"
+                    className="text-sm font-normal text-white no-underline"
                   >
                     +351 910 000 000
                   </a>
@@ -91,7 +100,7 @@ function Footer() {
                   <span className="block text-xs text-[#E0E0E0]">Email</span>
                   <a
                     href="mailto:info@mail.com"
-                    className="text-base font-normal text-white no-underline"
+                    className="text-sm font-normal text-white no-underline"
                   >
                     info@mail.com
                   </a>

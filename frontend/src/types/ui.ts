@@ -8,3 +8,12 @@ export type MultiImageTextSectionProps = {
   ctaText: string;
   ctaHref: string;
 };
+
+export type ImageTextSectionProps = {
+  imageSrc: string;
+  imageAlt: string;
+  title: ReactNode;
+  paragraphs: ReactNode[];
+  ctaText: string;
+  ctaHref: string;
+};

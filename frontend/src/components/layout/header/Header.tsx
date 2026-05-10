@@ -64,11 +64,14 @@ function Header({ isFixedHeader = false }: HeaderProps) {
       ].join(" ")}
     >
       <nav className="p-0">
-        <div className="mx-auto max-w-7xl px-4 py-[15px] sm:px-6 lg:px-8">
+        <div className="mx-auto w-full max-w-[1320px] px-4 py-[15px] sm:px-6 lg:px-8 xl:px-0">
           <div className="grid grid-cols-[1fr_auto] items-center md:grid-cols-3">
             <Link href="/" className="justify-self-start px-0 py-[5px]">
               <BrandLogo
-                className={isPinned ? "text-[#897160]" : "text-white"}
+                className={[
+                  "h-auto w-[135px] sm:w-[157px]",
+                  isPinned ? "text-[#897160]" : "text-white",
+                ].join(" ")}
                 aria-label="Nortecaca logo"
               />
             </Link>
